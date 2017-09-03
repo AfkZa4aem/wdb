@@ -1,0 +1,49 @@
+/*Element*/
+li {
+
+}
+/*class*/
+.className {
+
+}
+/*id*/
+#idName {
+
+}
+
+/*Star*/
+
+* {
+  border: 1px solid lightgrey;
+}
+
+/*Descendant Selectors Наследник, 
+то есть тег <a> который внутри <li>*/
+
+li a {
+  color: red;
+}
+
+/*Adjacent Selector соседний или следующий после
+то есть <ul> следующий после <h4>
+*/
+
+h4 + ul {
+  border: 4px solid red;
+}
+
+/*Attribute Selector тег с определенным атрибутом
+то есть любой тег <a>  у которого есть аттрибут href="http://google.com"
+*/
+
+a[href="http://google.com"] {
+  background: blue;
+}
+
+/*nth of type применяет стиль к каждому n-ому эл-ту на странице
+в группе
+*/
+
+li:nth-of-type(3){
+  background: purple;
+}
