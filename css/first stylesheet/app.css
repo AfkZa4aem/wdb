@@ -12,5 +12,7 @@ h4 {
 }
 
 body {
-  background: pink;
+  background: url(https://i.pinimg.com/originals/8c/c5/22/8cc522c738f4d73aef5e5f785b4af2b2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
