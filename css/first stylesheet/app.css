@@ -1,5 +1,15 @@
 h1 {
 	color:	#FF5533;
+  /*border type:
+    width
+    color
+    style
+  */
+ /* border-color: purple;
+  border-width: 5px;
+  border-style: solid;*/
+
+  border: 2px dashed purple; /*width, style, color*/
 }
 
 li {
@@ -12,7 +22,8 @@ h4 {
 }
 
 body {
-  background: url(https://i.pinimg.com/originals/8c/c5/22/8cc522c738f4d73aef5e5f785b4af2b2.jpg);
+  background: pink;
+  /*background: url(https://i.pinimg.com/originals/8c/c5/22/8cc522c738f4d73aef5e5f785b4af2b2.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover;*/
 }
