@@ -73,7 +73,7 @@ div:nth-of-type(3) em {
 /*You may need to research some other selectors and properties*/
 
 /*Make all "checked" checkboxes have a left margin of 50px(margin-left: 50px)*/
-input[type="checkbox"]:checked {
+input:checked {
   margin-left: 50px;
 }
 
@@ -86,7 +86,7 @@ label {
 /*Make the first letter of the element with id 'special' green and 100px font size(font-size: 100)*/
 #special:first-letter {
   color: green;
-  font-size: 100;
+  font-size: 100px;
 }
 
 /*Make the <h1> element's color change to blue when hovered over */
