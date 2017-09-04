@@ -1,9 +1,9 @@
 /* font-family */
 p {
-  font-family: Helvetica;
+  font-family: 'Raleway', sans-serif;
 }
 h1 {
-  font-family: Georgia;
+  font-family: 'Indie Flower', cursive;
 }
 /* font-size */
 body {
@@ -20,7 +20,7 @@ span {
 }
 /* font-weight 100 - 800, normal, bold */
 p {
-  font-weight: 500;
+  font-weight: 400;
 }
 
 /* line-height */
