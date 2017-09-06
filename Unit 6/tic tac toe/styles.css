@@ -12,26 +12,12 @@ td {
 	padding: 0;
 }
 
-#second {
+.vertical {
 	border-right: 1px solid;
 	border-left: 1px solid;
 }
 
-#fourth {
+.horizontal {
 	border-top: 1px solid;
 	border-bottom: 1px solid;
-}
-
-#fifth {
-	border:	1px solid;;
-}
-
-#sixth {
-	border-top: 1px solid;
-	border-bottom: 1px solid;
-}
-
-#eighth {
-	border-right: 1px solid;
-	border-left: 1px solid;
 }
