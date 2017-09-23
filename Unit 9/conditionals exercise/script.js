@@ -1,15 +1,23 @@
-var userAge = prompt("How old are you?");
-
-if (userAge < 0) {
-	console.log("Error: age can not be less then 0");
+// Get age and convert it to a Number (prompt always returns a String)
+var age = Number(prompt("What is your age?"));
+ 
+// If age is negative
+if(age < 0) {
+ console.log("Come back once you're out of the womb");
 }
-else if (userAge == 21) {
-	console.log("Happy 21st birthday!!");
+ 
+// If age is 21  
+if(age === 21) {
+ console.log("Happy 21st Birthday!");
 }
-else if (userAge % 2 == 1) {
-	console.log("Your age is odd!");
+ 
+// If age is odd
+//(not evenly divisible by two)
+if(age % 2 !== 0) {
+ console.log("Your age is odd!");
 }
-
-if (userAge === 4 || 9 || 16 || 25 || 36 || 49 || 64 || 81 || 100) {
-	console.log("perfect square");
+ 
+// If age is a perfect square
+if(age % Math.sqrt(age) === 0) {
+  console.log("Your age is a perfect square!");
 }
