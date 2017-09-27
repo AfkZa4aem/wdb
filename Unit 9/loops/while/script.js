@@ -18,7 +18,7 @@ while(i <= 40) {
 console.log("Print all odd numbers between 300 and 333");
 var i = 300;
 while(i <= 333) {
-	if(i % 2 != 0) {
+	if(i % 2 !== 0) {
 		console.log(i);
 	}
 	i++;
