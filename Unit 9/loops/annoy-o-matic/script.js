@@ -1,6 +1,7 @@
 var answer = prompt("Are we there yet?");
 
-while(answer !== "yes" && answer !== "yeah") {
+// check answer for the "yes"/"yeah" in answer
+while(answer.indexOf("yes") < 0 && answer.indexOf("yeah") < 0) {
 	var answer = prompt("Are we there yet?");
 }
 
