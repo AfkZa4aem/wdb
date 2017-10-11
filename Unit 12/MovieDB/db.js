@@ -21,17 +21,36 @@ var movies = [
 	}
 ];
 
-for(var i = 0; i < movies.length; i++){
-	var s = "watched"
+// for(var i = 0; i < movies.length; i++){
+// 	var s = "not seen"
 
-	if (movies[i].watched !== true){
-		s = "not seen"
+// 	if (movies[i].watched){
+// 		s = "watched"
+// 	}
+// 	console.log(
+// 			"You have " +
+// 			s + " \"" +
+// 			movies[i].name + "\" - " +
+// 			movies[i].raiting +
+// 			" stars"
+// 		);
+// }
+
+// Colt Solution:
+// create function, for building string
+function buildString(movie){
+	var result = "You have ";
+	if(movies.watched){
+		result += "watched "
 	}
-	console.log(
-			"You have " +
-			s + " " +
-			movies[i].name + " - " +
-			movies[i].raiting +
-			" stars"
-		);
-}
+	else{
+		result += "not seen "
+	};
+	result += "\"" + movie.name + "\" - ";
+	result += movie.raiting + " stars";
+	return result;
+};
+//use forEach loop for iteration
+movies.forEach(function(movie){
+	console.log(buildString(movie));
+});
