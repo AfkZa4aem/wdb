@@ -19,6 +19,7 @@ document.getElementsByTagName("tagName")
 
 // Retutns the first element that matches a given CSS-style selector
 // ("#selectorName")  (".className")  ("tagName") ("li a.special")
+// ("h1 + special") - take the first one after h1 tag
 document.querySelector("#selectorName")
 
 // Returns a list of elements that matches a given CSS-style selector
