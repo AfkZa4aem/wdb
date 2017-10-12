@@ -1,11 +1,16 @@
 var button = document.querySelector("button");
-var body = document.querySelector("body");
+
+// var body = document.querySelector("body");
+
+// button.addEventListener("click", function(){
+// 	if(body.style.background !== "purple"){
+// 		body.style.background = "purple";
+// 	}
+// 	else{
+// 		body.style.background = "white";
+// 	}
+// })
 
 button.addEventListener("click", function(){
-	if(body.style.background !== "purple"){
-		body.style.background = "purple";
-	}
-	else{
-		body.style.background = "white";
-	}
+	document.body.classList.toggle("purple");
 })
