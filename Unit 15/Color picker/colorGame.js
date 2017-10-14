@@ -11,7 +11,7 @@ var colors = [
 // pick all divs to array
 var squares = document.querySelectorAll(".square");
 // use one of the arrays as "picked"
-var pickedColor = colors[3];
+var pickedColor = pickColor();
 // add variable for span
 var colorDisplay = document.getElementById("colorDisplay");
 
@@ -47,4 +47,9 @@ function changeColors(color){
 		// change each color to match given color
 		squares[i].style.backgroundColor = color;
 	}
+}
+
+function pickColor(){
+	var random = Math.floor(Math.random() * colors.length);
+	return colors[random];
 }
