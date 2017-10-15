@@ -55,7 +55,9 @@ resetButton.addEventListener("click", function(){
 		squares[i].style.backgroundColor = colors[i];
 	}
 	// reset h1 color to default background color
-	h1.style.backgroundColor = ("#232323")
+	h1.style.backgroundColor = ("steelblue")
+	message.textContent = "";
+	this.textContent = "New Colors"
 })
 
 // change <span> text content 
