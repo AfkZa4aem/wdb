@@ -25,4 +25,14 @@ node <filename>
 * Use 'npm install' to install a package
 * Use 'require()' to include a package
 
+# Introduction to Express
 
+* What is a framework? How is it different from a library?
+* What is Express?
+* Why are we using Express?
+
+# Our First Express App!!!!!
+
+* Review an existing app (DogDemo)
+* Review HTTP response./request lifecycle
+* Create our own simple Express app!
