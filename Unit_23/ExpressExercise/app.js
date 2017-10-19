@@ -6,13 +6,13 @@ app.get("/", function(req, res){
 });
 
 app.get("/speak/:animal", function(req, res){
-	var animal = req.params.animal;
+	var animal = req.params.animal.toLowerCase();
 	phrases = {
 		pig: 'Oink',
 		cow: 'Moo',
 		dog: 'Woof Woof!'
 	};
-	res.send("The " + req.params.animal + " says " + "'" + phrases[animal] + "'");
+	res.send("The " + animal + " says " + "'" + phrases[animal] + "'");
 });
 
 app.get("/repeat/:word/:num", function(req, res){
