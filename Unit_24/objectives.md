@@ -4,3 +4,8 @@
 * Explain what EJS is and why we use it
 * Pass variables to EJS templates
 
+# EJS Control Flow
+
+* Show examples of control flow in EJS templates
+* Write is ftatement in a EJS file
+* Write loops in an EJS file
