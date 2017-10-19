@@ -20,6 +20,6 @@ app.get("/dogs", function(req, res){
 
 // Tell Express to listen for requests (start server)
 
-app.listen(process.env.PORT, process.env.IP, function(){
+app.listen(3000, function(){
     console.log("Server has started!");
 });
