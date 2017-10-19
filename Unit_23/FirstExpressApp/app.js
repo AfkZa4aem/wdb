@@ -2,7 +2,9 @@ var express = require("express");
 var app = express();
 
 // '/' => "Hi there!"
-app.get("/", function(req, res){
+app.get("/", function(req, res){ // request, response both objects
+    // request - information about request
+    // response - information about response
     res.send("Hi There!");
 });
 // '/bye' => "Goodbye!"
