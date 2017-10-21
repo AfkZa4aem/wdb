@@ -39,6 +39,6 @@ app.get("/campgrounds/new", function(req, res){
 	res.render("new.ejs");
 });
 
-app.listen(3000, function(){
+app.listen(process.env.PORT, process.env.IP, function(){
 	console.log("YelpCamp Server is running now!");
 });
