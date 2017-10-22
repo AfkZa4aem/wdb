@@ -12,16 +12,19 @@
 * Let's Install It!
  
 # Our First Mongo Commands
-* mongod
-* mongo
-* help
-* show dbs
-* use
-* insert
-* find
-* update
+* mongod - start mongo demon
+* mongo - open mongo console
+* help - show help
+* show dbs - show existing dbs
+* show collections - show collections :)
+* use - use specific db (use db_name)
+
+# CRUD
+* insert - add data to DB
+* find - find data in db
+* update - update data in db
     db.dogs.update({name: "Lulu"}, {$set: {breed: "Mutt"}})
-* remove
+* remove - delete data from db
 
 # Mongoose
 * What Is Mongoose?
