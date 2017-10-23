@@ -37,11 +37,11 @@ app.get("/", function(req, res){
 app.get("/campgrounds", function(req, res){
 	// get all campgrounds from DB
 	Campground.find({}, function(err, allCampgrounds){
-	if(err){
-		console.log(err);
-	} else {
-		res.render("index", {campgrounds: allCampgrounds});
-	}
+		if(err){
+			console.log(err);
+		} else {
+			res.render("index", {campgrounds: allCampgrounds});
+		}
 	});
 });
 
@@ -61,7 +61,6 @@ app.post("/campgrounds", function(req, res){
 			res.redirect("/campgrounds");
 		}
 	});
-
 });
 
 // NEW - show form to create new campground
