@@ -28,3 +28,9 @@ DESTROY
 * Add NEW template
 * Add CREATE route
 * Add CREATE template
+
+# SHOWtime
+* Add SHOW route
+* Add SHOW template
+* Add links to show page
+* Style show template
