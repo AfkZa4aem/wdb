@@ -34,3 +34,14 @@ DESTROY
 * Add SHOW template
 * Add links to show page
 * Style show template
+
+# EDIT/UPDATE
+* Add Edit route
+* Add Edit Form
+* Add Update route
+* Add Update Form
+* Add Method-Override
+
+# DESTROY
+* Add Destroy route
+* Add Edit and Destroy Links
