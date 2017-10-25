@@ -13,3 +13,8 @@
 * embedded data should be initialized first (before)
 
 ## Referencing Data
+
+
+## Module.Exports
+* Introduce module.exports
+* Move our models into separate files
