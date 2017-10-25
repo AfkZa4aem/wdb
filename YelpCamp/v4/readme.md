@@ -55,3 +55,6 @@ Each Campgrounds has:
 * Add The comment new and create routes
 * Add the new comment form
 
+## Nested routes for comments
+* NEW       campgrounds/:id/comments/new    GET
+* CREATE    campgrounds/:id/comments        POST
