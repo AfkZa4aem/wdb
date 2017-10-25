@@ -41,3 +41,7 @@ Each Campgrounds has:
 * Create a models Directory
 * Use module.exports
 * Require everything correctly
+
+# Add Seeds File
+* Add a seed.js file
+* Run the seeds file every time the server starts

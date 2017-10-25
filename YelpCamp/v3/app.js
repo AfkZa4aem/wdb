@@ -2,8 +2,10 @@ var express = require("express"),
 	app = express(),
 	bodyParser = require("body-parser"),
 	mongoose = require("mongoose"),
-	Campground = require("./models/campground");
+	Campground = require("./models/campground"),
+	seedDB = require("./seeds");
 
+seedDB();
 mongoose.connect("mongodb://localhost/yelp_camp", {userMongoClient: true});
 app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine", "ejs");
@@ -73,6 +75,6 @@ app.get("/campgrounds/:id", function(req, res){
     });
 });
 
-app.listen(3000, function(){
+app.listen(process.env.PORT, process.env.IP, function(){
 	console.log("YelpCamp Server is running now!");
 });
