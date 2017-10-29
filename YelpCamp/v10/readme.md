@@ -115,3 +115,21 @@ Each Campgrounds has:
 * User can only edit his/her campgrounds
 * User can only delete his/her campgrounds
 * Hide/Show edit and delete buttons
+
+# Editing Comments
+* Add Edit route for comments
+* Add Edit button
+* Add Update route
+
+<!--/campgrounds/:id/edit-->
+<!--/campgrounds/:id/comments/:comment_id/edit-->
+
+# Deleting Comments
+* Add Destroy route
+* Add Delete button
+
+# Authorization Part2: Comments
+* User can only edit his/her comments
+* User can only delete his/her comments
+* Hide/Show edit and delete buttons
+* Refactor Middleware
