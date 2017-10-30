@@ -121,12 +121,15 @@ Each Campgrounds has:
 * Add Edit button
 * Add Update route
 
-<!--/campgrounds/:id/edit-->
-<!--/campgrounds/:id/comments/:comment_id/edit-->
+Campground Edit Route:  <!--/campgrounds/:id/edit-->
+Comment Edit Route:     <!--/campgrounds/:id/comments/:comment_id/edit-->
 
 # Deleting Comments
 * Add Destroy route
 * Add Delete button
+
+Campground Destroy Route:   /campgrounds/:id
+Comment Destroy Route:      /campgrounds/:id/comments/:comment_id
 
 # Authorization Part2: Comments
 * User can only edit his/her comments
